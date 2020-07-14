@@ -4,8 +4,9 @@ import './style.css';
 function EmployeeCard(props) {
   return (
     <div className="card">
-      <div className="img-container">
-        <img alt={props.firstName} src={props.image} />
+      <div className="img-container d-flex align-items-center justify-content-center">
+        {/* <img alt={props.firstName} src={props.image} /> */}
+        <h1>{props.firstName} {props.lastName}</h1>
       </div>
       <div className="content">
         <ul>
@@ -13,16 +14,19 @@ function EmployeeCard(props) {
             <strong>First Name:</strong> {props.firstName} {props.lastName}
           </li>
           <li>
-            <strong>Occupation:</strong> {props.occupation}
+            <strong>Title:</strong> {props.title}
           </li>
           <li>
-            <strong>Location:</strong> {props.location}
+            <strong>Salary:</strong> {props.salary}
+          </li>
+          <li>
+            <strong>Department:</strong> {props.dept}
+          </li>
+          <li>
+            <strong>Manager:</strong> {props.manager}
           </li>
         </ul>
       </div>
-      <span onClick={() => props.removeFriend(props.id)} className="remove">
-        𝘅
-      </span>
     </div>
   );
 }
