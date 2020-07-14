@@ -1,4 +1,4 @@
-# ReactJS Employee Directory
+# React Employee Directory
 
 ## Overview
 

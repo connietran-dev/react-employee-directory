@@ -1,0 +1,128 @@
+[
+	{
+		"id" : 1,
+		"first_name" : "Michael",
+		"last_name" : "Scott",
+		"title" : "Regional Manager",
+		"salary" : 180000.00,
+		"department" : "Executive",
+		"manager" : null
+	},
+	{
+		"id" : 2,
+		"first_name" : "Angela",
+		"last_name" : "Martin",
+		"title" : "Accountant",
+		"salary" : 70000.00,
+		"department" : "Finance",
+		"manager" : null
+	},
+	{
+		"id" : 3,
+		"first_name" : "Darryl",
+		"last_name" : "Philbin",
+		"title" : "Software Engineer",
+		"salary" : 175000.00,
+		"department" : "Information Technology",
+		"manager" : null
+	},
+	{
+		"id" : 4,
+		"first_name" : "Connie",
+		"last_name" : "Tran",
+		"title" : "HR Associate",
+		"salary" : 90000.00,
+		"department" : "Human Resources",
+		"manager" : null
+	},
+	{
+		"id" : 5,
+		"first_name" : "Dwight",
+		"last_name" : "Schrute",
+		"title" : "Assistant to the Regional Manager",
+		"salary" : 90000.00,
+		"department" : "Executive",
+		"manager" : "Michael"
+	},
+	{
+		"id" : 6,
+		"first_name" : "Jim",
+		"last_name" : "Halpert",
+		"title" : "Sales Representative",
+		"salary" : 60000.00,
+		"department" : "Sales",
+		"manager" : "Michael"
+	},
+	{
+		"id" : 7,
+		"first_name" : "Pam",
+		"last_name" : "Beasley",
+		"title" : "Administrative Professional",
+		"salary" : 40000.00,
+		"department" : "Operations",
+		"manager" : "Michael"
+	},
+	{
+		"id" : 8,
+		"first_name" : "Stanley",
+		"last_name" : "Hudson",
+		"title" : "Sales Representative",
+		"salary" : 60000.00,
+		"department" : "Sales",
+		"manager" : "Michael"
+	},
+	{
+		"id" : 9,
+		"first_name" : "Phyllis",
+		"last_name" : "Lapin",
+		"title" : "Sales Representative",
+		"salary" : 60000.00,
+		"department" : "Sales",
+		"manager" : "Michael"
+	},
+	{
+		"id" : 10,
+		"first_name" : "Oscar",
+		"last_name" : "Gutierrez",
+		"title" : "Accountant",
+		"salary" : 70000.00,
+		"department" : "Finance",
+		"manager" : "Angela"
+	},
+	{
+		"id" : 11,
+		"first_name" : "Kevin",
+		"last_name" : "Malone",
+		"title" : "Accountant",
+		"salary" : 70000.00,
+		"department" : "Finance",
+		"manager" : "Angela"
+	},
+	{
+		"id" : 12,
+		"first_name" : "Creed",
+		"last_name" : "Bratton",
+		"title" : "Administrative Professional",
+		"salary" : 40000.00,
+		"department" : "Operations",
+		"manager" : "Darryl"
+	},
+	{
+		"id" : 13,
+		"first_name" : "Andy",
+		"last_name" : "Bernard",
+		"title" : "Manager",
+		"salary" : 80000.00,
+		"department" : "Sales",
+		"manager" : "Michael"
+	},
+	{
+		"id" : 14,
+		"first_name" : "Toby",
+		"last_name" : "Flenderson",
+		"title" : "HR Associate",
+		"salary" : 90000.00,
+		"department" : "Human Resources",
+		"manager" : "Michael"
+	}
+]
