@@ -21,18 +21,18 @@
 		"id" : 3,
 		"first_name" : "Darryl",
 		"last_name" : "Philbin",
-		"title" : "Software Engineer",
-		"salary" : 175000.00,
-		"department" : "Information Technology",
+		"title" : "Manager",
+		"salary" : 150000.00,
+		"department" : "Operations",
 		"manager" : null
 	},
 	{
 		"id" : 4,
 		"first_name" : "Connie",
 		"last_name" : "Tran",
-		"title" : "HR Associate",
-		"salary" : 90000.00,
-		"department" : "Human Resources",
+		"title" : "Software Engineer",
+		"salary" : 175000.00,
+		"department" : "Information Technology",
 		"manager" : null
 	},
 	{
@@ -42,7 +42,7 @@
 		"title" : "Assistant to the Regional Manager",
 		"salary" : 90000.00,
 		"department" : "Executive",
-		"manager" : "Michael"
+		"manager" : "Michael Scott"
 	},
 	{
 		"id" : 6,
@@ -51,16 +51,16 @@
 		"title" : "Sales Representative",
 		"salary" : 60000.00,
 		"department" : "Sales",
-		"manager" : "Michael"
+		"manager" : "Michael Scott"
 	},
 	{
 		"id" : 7,
 		"first_name" : "Pam",
 		"last_name" : "Beasley",
-		"title" : "Administrative Professional",
-		"salary" : 40000.00,
-		"department" : "Operations",
-		"manager" : "Michael"
+		"title" : "Sales Representative",
+		"salary" : 60000.00,
+		"department" : "Sales",
+		"manager" : "Michael Scott"
 	},
 	{
 		"id" : 8,
@@ -69,7 +69,7 @@
 		"title" : "Sales Representative",
 		"salary" : 60000.00,
 		"department" : "Sales",
-		"manager" : "Michael"
+		"manager" : "Michael Scott"
 	},
 	{
 		"id" : 9,
@@ -78,7 +78,7 @@
 		"title" : "Sales Representative",
 		"salary" : 60000.00,
 		"department" : "Sales",
-		"manager" : "Michael"
+		"manager" : "Michael Scott"
 	},
 	{
 		"id" : 10,
@@ -87,7 +87,7 @@
 		"title" : "Accountant",
 		"salary" : 70000.00,
 		"department" : "Finance",
-		"manager" : "Angela"
+		"manager" : "Angela Martin"
 	},
 	{
 		"id" : 11,
@@ -96,16 +96,16 @@
 		"title" : "Accountant",
 		"salary" : 70000.00,
 		"department" : "Finance",
-		"manager" : "Angela"
+		"manager" : "Angela Martin"
 	},
 	{
 		"id" : 12,
 		"first_name" : "Creed",
 		"last_name" : "Bratton",
-		"title" : "Administrative Professional",
+		"title" : "Quality Control Associate",
 		"salary" : 40000.00,
 		"department" : "Operations",
-		"manager" : "Darryl"
+		"manager" : "Darryl Philbin"
 	},
 	{
 		"id" : 13,
@@ -114,15 +114,15 @@
 		"title" : "Manager",
 		"salary" : 80000.00,
 		"department" : "Sales",
-		"manager" : "Michael"
+		"manager" : "Michael Scott"
 	},
 	{
 		"id" : 14,
 		"first_name" : "Toby",
 		"last_name" : "Flenderson",
 		"title" : "HR Associate",
-		"salary" : 90000.00,
+		"salary" : 60000.00,
 		"department" : "Human Resources",
-		"manager" : "Michael"
+		"manager" : "Michael Scott"
 	}
 ]
