@@ -30,6 +30,24 @@ function App() {
     setEmployees(...employees, sortEmployees);
   };
 
+  function sortLastName() {
+    let sortEmployees = employees.sort((a, b) => {
+      let fa = a.last_name.toLowerCase(),
+        fb = b.last_name.toLowerCase();
+
+      if (fa < fb) {
+        return -1;
+      }
+      if (fa > fb) {
+        return 1;
+      }
+      return 0;
+    });
+
+    // setEmployees takes previous state value and changed state value
+    setEmployees(...employees, sortEmployees);
+  };
+
   return (
     <div className="wrapper">
       <Container maxWidth="sm">
@@ -40,7 +58,9 @@ function App() {
           <Button onClick={sortFirstName} >
             Sort by First Name
           </Button>
-          <Button>Sort by Last Name</Button>
+          <Button onClick={sortLastName} >
+            Sort by Last Name
+            </Button>
         </ButtonGroup>
       </Container>
       {
