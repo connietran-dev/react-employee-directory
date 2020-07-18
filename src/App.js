@@ -17,6 +17,7 @@ import employeesArray from "./employees.json";
 
 import './App.css';
 
+
 const useStyles = makeStyles((theme) => ({
   formControl: {
     margin: theme.spacing(1),
@@ -27,13 +28,16 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+
 function App() {
   const classes = useStyles();
   const [employees, setEmployees] = useState(employeesArray);
   const [filterDept, setFilterDept] = useState('');
 
+  
   function sortFirstName() {
-    let sortEmployees = employeesArray.sort((a, b) => {
+    // .sort sorts *in place*, so you need to copy the employees array
+    let sortEmployees = [...employees].sort((a, b) => {
       let fa = a.first_name.toLowerCase(),
         fb = b.first_name.toLowerCase();
 
@@ -46,12 +50,12 @@ function App() {
       return 0;
     });
 
-    // setEmployees takes previous state value and changed state value
     setEmployees(sortEmployees);
   };
 
   function sortLastName() {
-    let sortEmployees = employeesArray.sort((a, b) => {
+    // .sort sorts *in place*, so you need to copy the employees array
+    let sortEmployees = [...employees].sort((a, b) => {
       let fa = a.last_name.toLowerCase(),
         fb = b.last_name.toLowerCase();
 
@@ -68,13 +72,15 @@ function App() {
   };
 
   const filterByDept = (event) => {
-    let filterEmployees = employeesArray.filter(employee => {
+    // .filter creates a new array
+    let filterEmployees = employees.filter(employee => {
       return employee.department === event.target.value;
     });
 
     setEmployees(filterEmployees);
     setFilterDept(event.target.value);
   };
+
 
   return (
     <div className="wrapper">
@@ -109,7 +115,7 @@ function App() {
       </Container>
       <Grid container className={classes.root} spacing={2}>
         {
-          employees.map(employee => 
+          employees.map(employee =>
             <EmployeeCard
               key={employee.id}
               firstName={employee.first_name}

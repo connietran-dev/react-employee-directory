@@ -6,7 +6,7 @@ function EmployeeCard(props) {
     <div className="card">
       <div className="img-container d-flex align-items-center justify-content-center">
         {/* <img alt={props.firstName} src={props.image} /> */}
-        <h1>{props.firstName} {props.lastName}</h1>
+        <h2>{props.firstName} {props.lastName}</h2>
       </div>
       <div className="content">
         <ul>

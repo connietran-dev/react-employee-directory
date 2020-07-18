@@ -1,3 +1,10 @@
+body {
+  background-color: #A0DDEE;
+  font-family: 'Work Sans', sans-serif;
+  color:#18202C;
+  padding-bottom: 75px;
+}
+
 .App {
   text-align: center;
 }
